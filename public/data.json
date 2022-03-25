@@ -1,0 +1,56 @@
+[
+    {
+      "id": "1",
+      "img": "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/f17-pro/navigation/F17%20pro-navigation-blue-v2.png",
+      "price": 25000,
+      "name": "oppo f17"
+    },
+    {
+      "id": "2",
+      "img": "https://image.oppo.com/content/dam/oppo/common/mkt/v2-2/reno7_pro/navigation/Reno7_Pro_navigation-blue_2.png.thumb.webp",
+      "price": 30000,
+      "name": "oppo reno 7"
+    },
+    {
+      "id": "3",
+      "img": "https://www.gizmochina.com/wp-content/uploads/2019/11/Xiaomi-Redmi-K30.jpg",
+      "price": 22000,
+      "name": "xiaomi k30"
+    },
+    {
+      "id": "4",
+      "img": "https://www.gizmochina.com/wp-content/uploads/2020/03/Xiaomi-Redmi-Note-9-Pro-Max-500x500.jpg",
+      "price": 25000,
+      "name": "xiaomi note 9"
+    },
+    {
+      "id": "5",
+      "img": "https://i0.wp.com/dazzle.com.bd/wp-content/uploads/2021/10/mi-11Lite-pink-min.png?fit=600%2C600&ssl=1",
+      "price": 70000,
+      "name": "mi-11"
+    },
+    {
+      "id": "6",
+      "img": "https://www.bdprice.com.bd/wp-content/uploads/2022/01/Xiaomi-Redmi-Note-11-Price-in-Bangladesh-1.jpg",
+      "price": 12000,
+      "name": "redmi note 11"
+    },
+    {
+      "id": "7",
+      "img": "https://www.mobiledokan.com/wp-content/uploads/2021/04/Realme-8-Pro-image.jpg",
+      "price": 28000,
+      "name": "realme 8pro"
+    },
+    {
+      "id": "8",
+      "img": "https://www.mymobilesprice.com/wp-content/uploads/2022/02/Realme-X50-Pro-Player-500x500.jpg",
+      "price": 32000,
+      "name": "realme x50 pro"
+    },
+    {
+      "id": "9",
+      "img": "https://goprice.com.bd/wp-content/uploads/2021/12/New-Project-2-5.jpg",
+      "price": 34,
+      "name": "realme gt neo"
+    }
+  ]
