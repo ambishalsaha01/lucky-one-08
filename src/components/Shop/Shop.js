@@ -17,6 +17,11 @@ const Shop = () => {
         setCart(newCart);
     }
 
+    const removeAddToCart = () => {
+        const newCart = [];
+        setCart(newCart);
+    }
+
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -45,7 +50,7 @@ const Shop = () => {
                 <div className="cart-button">
                     <button className='btn-chose'>Chose one for me</button>
                     <br />
-                    <button className='btn-chose-again'>Chose again</button>
+                    <button onClick={removeAddToCart} className='btn-chose-again'>Chose again</button>
                 </div>
             </div>
         </div>
