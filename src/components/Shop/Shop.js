@@ -14,8 +14,8 @@ const Shop = () => {
 
     const handleAddToCart = (product) => {
         console.log(product);
-        const newCart = [...cart, product];
-        setCart(newCart);
+        // const newCart = [...cart, product];
+        // setCart(newCart);
     }
 
     return (
@@ -25,6 +25,7 @@ const Shop = () => {
                     products.map(product => <Product
                         key={product.id}
                         name={product.name}
+                        product={product}
                         img={product.img}
                         price={product.price}
                         id={product.id}
@@ -33,7 +34,7 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-            <Cart cart={cart}></Cart>
+            {/* <Cart cart={cart}></Cart> */}
             </div>
         </div>
     );
