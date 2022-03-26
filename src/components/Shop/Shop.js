@@ -42,8 +42,10 @@ const Shop = () => {
                         item={item}
                         ></Cart>)
                 }
-                <div className="">
-                    <button>click herwe</button>
+                <div className="cart-button">
+                    <button className='btn-chose'>Chose one for me</button>
+                    <br />
+                    <button className='btn-chose-again'>Chose again</button>
                 </div>
             </div>
         </div>

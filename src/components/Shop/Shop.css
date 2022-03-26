@@ -10,5 +10,31 @@
 }
 
 .cart-container{
+    position: sticky;
+    top: 0;
     background-color: #ece4e4;
+    padding: 20px;
+}
+
+.cart-button .btn-chose,
+.cart-button .btn-chose-again{
+    border: 0;
+    padding: 10px 15px;
+    border: 2px solid #6306db;
+    border-radius: 5px;
+    background: transparent;
+    color: #6306db;
+    font-size: 18px;
+    font-weight: 500;
+    margin-bottom: 15px;
+}
+
+.cart-button .btn-chose-again{
+    border: 2px solid #07a0e7;
+    color: #07a0e7;
+}
+
+.cart-button .btn-chose:hover,
+.cart-button .btn-chose-again:hover{
+    cursor: pointer;
 }
