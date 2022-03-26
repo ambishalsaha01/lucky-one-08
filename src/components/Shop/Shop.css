@@ -9,11 +9,12 @@
     gap: 30px;
 }
 
-.cart-container{
-    position: sticky;
-    top: 0;
+.shop-cart-container{
     background-color: #dcdde1;
     padding: 20px;
+    position: sticky;
+    top: 0;
+    right: 0;
 }
 
 .cart-button .btn-chose,

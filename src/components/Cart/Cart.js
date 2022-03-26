@@ -4,7 +4,7 @@ import './Cart.css'
 const Cart = (props) => {
 const {img, name} = props.item;
     return (
-        <div>
+        <div className='cart'>
             <div className='cart-content'>
                 <img className='cart-img' src={img} alt="product img" />
                 <p className='cart-text'>{name}</p>

@@ -22,6 +22,13 @@ const Shop = () => {
         setCart(newCart);
     }
 
+    const randomItemAddToCart = () =>{
+        const array = [...cart]
+        const element = array.sort(() => Math.random() - Math.random()).find(() => true);
+        const newItem =[element];
+        setCart(newItem)
+     }
+
     return (
         <div className='shop-container'>
             <div className="products-container">
@@ -37,9 +44,9 @@ const Shop = () => {
                         ></Product>)
                 }
             </div>
-            <div className="cart-container">
+            <div className="shop-cart-container">
                 <div className="cart-header">
-                    <h2>This is cart page</h2>
+                    <h2>Selected Mobile</h2>
                 </div>
                 {
                     cart.map(item => <Cart
@@ -48,7 +55,7 @@ const Shop = () => {
                         ></Cart>)
                 }
                 <div className="cart-button">
-                    <button className='btn-chose'>Chose one for me</button>
+                    <button onClick={randomItemAddToCart} className='btn-chose'>Chose one for me</button>
                     <br />
                     <button onClick={removeAddToCart} className='btn-chose-again'>Chose again</button>
                 </div>
