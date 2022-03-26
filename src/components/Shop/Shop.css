@@ -12,7 +12,7 @@
 .cart-container{
     position: sticky;
     top: 0;
-    background-color: #ece4e4;
+    background-color: #dcdde1;
     padding: 20px;
 }
 
@@ -37,4 +37,17 @@
 .cart-button .btn-chose:hover,
 .cart-button .btn-chose-again:hover{
     cursor: pointer;
+}
+
+@media only screen and (max-width: 525px){
+    .shop-container{
+        display: grid;
+        grid-template-columns: 1fr;
+    }
+
+    .products-container{
+        display: grid;
+        grid-template-columns: 1fr;
+        gap: 0;
+    }
 }
