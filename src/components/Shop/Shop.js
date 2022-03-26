@@ -13,9 +13,8 @@ const Shop = () => {
     }, [])
 
     const handleAddToCart = (product) => {
-        console.log(product);
-        // const newCart = [...cart, product];
-        // setCart(newCart);
+        const newCart = [...cart, product];
+        setCart(newCart);
     }
 
     return (
@@ -34,7 +33,18 @@ const Shop = () => {
                 }
             </div>
             <div className="cart-container">
-            {/* <Cart cart={cart}></Cart> */}
+                <div className="cart-header">
+                    <h2>This is cart page</h2>
+                </div>
+                {
+                    cart.map(item => <Cart
+                        key={item.id}
+                        item={item}
+                        ></Cart>)
+                }
+                <div className="">
+                    <button>click herwe</button>
+                </div>
             </div>
         </div>
     );

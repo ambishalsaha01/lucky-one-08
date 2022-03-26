@@ -4,8 +4,9 @@ import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import './Product.css'
 
 const Product = (props) => {
-    const {img, name, price, id} = props.product;
-    // const {handleAddToCart} = props;
+    const {handleAddToCart, product} = props;
+    const {img, name, price, id} = product;
+    
     // console.log(props)
     return (
         <div className='product-container'>
@@ -13,7 +14,7 @@ const Product = (props) => {
             <h2>Name: {name}</h2>
             <p>Price: ${price}</p>
             <p>id: {id}</p>
-            <button onClick={()=> props.handleAddToCart(props.product)} className='btn-cart' >
+            <button onClick={()=> handleAddToCart(product)} className='btn-cart' >
                 <p>Add to cart</p>
                 <FontAwesomeIcon icon={faShoppingCart}></FontAwesomeIcon>
             </button>
